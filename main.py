@@ -8,10 +8,10 @@ caminho = askdirectory(title="Selecione uma pasta")
 lista_arquivos = os.listdir(caminho)
 
 locais = {
-    "imagens": [".png", ".jpg", ".gif", ".webp"],
+    "imagens": [".png", ".jpg", ".gif", ".webp", ".jpeg"],
     "audio": [".mp3", ".wav", ".m4a"],
     "video": [".mp4", ".wmv", ".mov"],
-    "documentos": [".pdf", ".csv"],
+    "documentos": [".pdf", ".csv", ".txt", ".xlsx", ".docx", ".TXT"],
     "arquivos_zip": [".zip"],
     "aplicativos": [".exe"],
 }
